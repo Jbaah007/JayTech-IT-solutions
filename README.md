@@ -12,7 +12,7 @@ jaytech-it-solutions/
 │   ├── jaytech-support/      Support tickets and customer dashboard
 │   └── jaytech-booking/      Appointment booking
 └── docs/
-    └── screenshots/          Add screenshots here
+    └── screenshots/          Application screenshots
 ```
 
 Only the custom source code is included. WordPress core, `wp-config.php`, uploads, and database exports are intentionally excluded.
@@ -75,17 +75,23 @@ PHP 7.4+, WordPress 6.3+, MySQL/MariaDB, HTML5, CSS3 (custom properties, grid), 
 
 The site works with any permalink structure, but "Post name" is recommended.
 
-## Screenshots
+## Application Screenshots
 
-Add images to `docs/screenshots/` and reference them here, for example:
+### Homepage Hero and Customer Portal
 
-```markdown
-![Homepage](docs/screenshots/homepage.png)
-![Customer dashboard](docs/screenshots/dashboard.png)
-![Appointment booking](docs/screenshots/booking.png)
-```
+![Homepage hero and customer portal](docs/screenshots/Screenshot%202025-12-28%20181301.png)
 
-Do not include screenshots that show real customer data.
+### Services and Why Choose Us
+
+![Services and why choose us sections](docs/screenshots/Screenshot%202026-11-05%20051316.png)
+
+### Customer Dashboard
+
+![Customer dashboard with ticket statistics](docs/screenshots/Screenshot%202026-11-05%20051428.png)
+
+### Appointment Booking
+
+![Appointment booking form](docs/screenshots/Screenshot%202026-11-05%20051514.png)
 
 ## Contact form email
 
