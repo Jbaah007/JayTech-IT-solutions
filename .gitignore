@@ -1,0 +1,63 @@
+# WordPress
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backup*/
+/wp-content/ai1wm-backups/
+/wp-*.php
+/xmlrpc.php
+/index.php
+/license.txt
+/readme.html
+wp-config.php
+wp-config-*.php
+.htaccess
+local-xdebuginfo.php
+
+# Databases and backups
+*.sql
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.zip
+*.tar
+*.tar.gz
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+auth.json
+
+# Logs and caches
+*.log
+logs/
+cache/
+.cache/
+npm-debug.log*
+
+# Local WP
+conf/
+app/
+*.local.json
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+build/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
